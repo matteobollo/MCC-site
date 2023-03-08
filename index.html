@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+</head>
+
+<body>
+    <div id = "mcc">
+        <!-- header section starts  -->
+        <div v-if = "HomePage">
+            <header class="header">
+
+                <section class="flex">
+
+            
+                  <a href="#home" class="logo"><img src="images/.png" alt =""></a>
+            
+                  <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#doc">Documenti</a>
+                    <a href="#where">Dove Siamo</a>
+                    <a href="#contact">Contatti</a>
+                  </nav>
+            
+                  <div id="menu-btn" class="fas fa-bars"></div>
+            
+                </section>
+            
+              </header>
+              <!-- header section end  -->
+
+              <section class="home-page" id="home">
+
+                <div class="row">
+            
+                  <div class="content">
+                    <h3><span class="script_write">M</span>osso <span class="script_write">C</span>he <span class="script_write">C</span>onta</h3>
+                  </div>
+            
+                  <div class="image">
+                    <img src="images/mcc.jpg" alt="">
+                  </div>
+            
+                </div>
+            
+              </section>
+
+              <section class="rect">
+
+                <div class="box-container">
+              
+                  <div class="box">
+                    <i class="fa-solid fa-calendar"></i>
+                    <div class="content">
+                      <h3>12/06 - 28/06</h3>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa-solid fa-clock"></i>
+                    <div class="content">
+                      <h3>08:30 - 17:30</h3>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <i class="fa-solid fa-coins"></i>
+                    <div class="content">
+                      <h3>35€ / settimana</h3>
+                    </div>
+                  </div>
+              
+                </div>
+              
+              </section>
+
+              <section class="about" id="about">
+
+                <div class="row">
+              
+                  <div class="image">
+                    <img src="images/question.svg" alt="">
+                  </div>
+              
+                  <div class="content">
+                    <h3>Chi siamo?</h3>
+                    <p>
+                        Benvenuti! Siamo gli animatori di "Mosso Che Conta". Un piccolo oratorio situato a Mosso, nel comune di Valdilana (BI), 
+                        da ormai più di sei anni ci occupiamo dell'organizzazione di centro estivo, eventi a tema, feste, compleanni e molto altro.
+                        In questo sito troverete tutte le informazioni e le novità sia del centro estivo, sia di tutte le attività extra svolte durante l'anno.
+                    </p>
+                  </div>
+              
+                </div>
+              
+              </section>
+
+              <section class="doc" id="doc"> <!-- Teachers -->
+
+                <h1 class="heading">Modulistica <span>Estate 2023</span></h1>
+              
+                <div class="row">
+              
+                    <div class="content">
+                        <h3>Presto in Arrivo!</h3>
+                         <!-- TODO da completare -->
+                      </div>
+
+                  <div class="image">
+                    <img src="images/modules.svg" alt="">
+                  </div>
+              
+              
+                </div>
+              
+              </section>
+            
+              <section class="where" id="where"> <!-- MyRep -->
+
+                <h1 class="heading">Dove <span>Siamo?</span></h1>
+              
+                <div class="row">
+              
+                  <div class="image">
+                    <img src="images/maps.svg" alt="">
+                  </div>
+              
+                  <div class="content">
+                    <h3>La Nostra Posizione</h3>
+                     <p>Ci trovate a Mosso, nel Cineteatro Parrocchiale.</p>
+                     <p>Piazza Italia, 12, 13835 Valdilana BI</p>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2789.212235704189!2d8.133867115424861!3d45.646559479103594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478618d15ec0a4cb%3A0x8bc6836fc52b3194!2sCineteatro%20Mosso!5e0!3m2!1sit!2sit!4v1678309252119!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              
+                </div>
+              
+              </section>
+              
+                <section class="contact" id="contact"> <!-- Storico -->
+              
+                  <h1 class="heading">I Nostri <span>Contatti</span></h1>
+              
+                  <div class="row">
+              
+                    <div class="content">
+                        <h3>Contattaci</h3>
+                            <p>Per contattarci invia una mail o chiama i seguenti numeri:</p>
+                            <a href="mailto:centroestivomcc@gmail.com?subject=Informazioni%20%20"><p>- centroestivomcc@gmail.com</p></a>
+                                <p>- 334 737 6660 (cell. Stefano)</p>
+                                <p>- 333 876 4234  (cell. Andrea)</p>
+                                <p>- 015 906 0631 ( Segreteria Cineteatro / Bar ANSPI)</p>
+                            <p>
+                                La segreteria del "Centro Estivo MCC" risponde al numero fisso solo durante il periodo di centro estivo o durante 
+                                gli eventi organizzati. Nel periodo restante le chiamate ricevute sulla linea fissa vengono trasferite al BAR Circolo A.N.S.P.I.
+                            </p>
+                      </div>
+
+                    <div class="image">
+                      <img src="images/contact.svg" alt="">
+                    </div>
+                           
+                  </div>
+              
+                </section>
+              
+        </div>
+    </div>
+</body>
+</html>
