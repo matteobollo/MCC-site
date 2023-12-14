@@ -1,4 +1,4 @@
-C# 🇮🇹 Sito Centro Estivo 🇮🇹
+# 🇮🇹 Sito Centro Estivo 🇮🇹
 ---
 
 Il sito è stato sviluppato per il centro estivo a cui lavoravo precedentemente, riporta informazioni di vario tipo, come:
