@@ -7,7 +7,7 @@ Il sito è stato sviluppato per il centro estivo a cui lavoravo precedentemente,
   - Documentazione per iscrizioni e deroghe,
   - Link diretto al modulo di iscrizione
 
-La tecnologia web utilizzata è Vue.js, infatti, quest'utlimo è una SPA(Single Page Application).
+La tecnologia web utilizzata è Vue.js, infatti, quest'ultimo è una SPA(Single Page Application).
 Il codice qui presente è da ritenersi come un "curriculum" di ciò che ho sviluppato, non deve essere inteso come materiale da cui trarre spunto.
 ---
 
