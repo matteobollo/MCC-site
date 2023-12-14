@@ -1,4 +1,4 @@
-# 🇮🇹 Sito Centro Estivo 🇮🇹
+C# 🇮🇹 Sito Centro Estivo 🇮🇹
 ---
 
 Il sito è stato sviluppato per il centro estivo a cui lavoravo precedentemente, riporta informazioni di vario tipo, come:
@@ -11,7 +11,7 @@ La tecnologia web utilizzata è Vue.js, infatti, quest'utlimo è una SPA(Single 
 Il codice qui presente è da ritenersi come un "curriculum" di ciò che ho sviluppato, non deve essere inteso come materiale da cui trarre spunto.
 ---
 
-# 🇬🇧 Sito Centro Estivo 🇬🇧
+# 🇬🇧 Summer Camp Site 🇬🇧
 ---
 
 The site was developed for the summer camp I was previously working at, it reports information of various kinds, such as:
